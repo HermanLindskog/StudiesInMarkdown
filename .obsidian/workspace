@@ -4,26 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "eac0b1e76bbea748",
-        "type": "leaf",
-        "dimension": 52.82131661442007,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "TTM4105/Lecture week 35 - 31.08.22.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "4cf07856e33043ff",
         "type": "leaf",
-        "dimension": 47.17868338557994,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TTM4105/Lecture week 35 - 31.08.22.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TTM4105/Lecture week 35 - 31.08.22.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TTM4105/Lecture week 35 - 31.08.22.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTM4105/Lecture week 35 - 31.08.22.md"
+                "file": "README.md"
               }
             }
           }
@@ -142,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eac0b1e76bbea748",
+  "active": "4cf07856e33043ff",
   "lastOpenFiles": [
-    "TTM4240/Lecture week 35 - 31.08.md",
-    "TTM4110/Pasted image 20220831085704.png",
-    "TTM4110/Pasted image 20220831084514.png",
-    "TTM4110/Pasted image 20220829162817.png",
-    "TTM4110/Pasted image 20220829124224.png",
-    "TTM4110/Pasted image 20220829121109.png",
-    "TTM4110/Pasted image 20220829114414.png",
-    "TTM4105/Pasted image 20220831122802.png",
-    "TTM4105/Pasted image 20220831123230.png",
-    "TTM4105/Pasted image 20220831122353.png"
+    "TTM4240.md",
+    "README.md",
+    "TTM4240/What's inside a router.md",
+    "What's inside a router.md",
+    "TTM4240/Images/Pasted image 20220829110307 1.png",
+    "TTM4240/Images/Pasted image 20220829110252 1.png",
+    "TTM4240/Images/Pasted image 20220829105704 1.png",
+    "TTM4240/Images/Pasted image 20220829110222 1.png",
+    "TTM4240/Images/Pasted image 20220829105606 1.png",
+    "TTM4240/Images/Pasted image 20220829105455 1.png"
   ]
 }
