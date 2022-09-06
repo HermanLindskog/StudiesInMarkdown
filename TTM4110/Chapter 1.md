@@ -109,4 +109,68 @@ Operation and maintance functionality includes:
 Definition: "Degree of compliance of a service to the agreement that exists between the user and the provider of this service"
 
 #### Compound systems
+![[Pasted image 20220901141619.png]]
 
+## Dependability
+Definition:
+**"Trustworthiness of a system such that reliance can justifiably be placed on the service it delivers."**
+
+Threats to depenability:
+1. Failure
+	**Deviation of the delivered service from the compliance with the specification. Transition from correct service to incorrect service (e.g. the service becomes unavailable).**
+2. Error
+	**Part of the system state which is liable to lead to a failure.**
+3. Fault
+	**Adjudged or hypothesized cause of an error.**
+![[Pasted image 20220901142222.png]]
+![[Pasted image 20220901142246.png]]
+- An electromagnetic pulse (fault) results in flipping of a bit in data register (error)
+	- When this register is accessed, a wrong result is returned to the user (failure)
+
+The conceptual distinction between fault, error and failure is very important. For example, the two basic approaches to achieve a dependable system are:
+- fault prevention
+- Fault tolerance
+
+#### Types of fault
+- physical faults
+- Transient fault
+	- These faults are present only for a short period of time and no physical change occurs in the system, e.g. external disturbances like electromagnetic interference and radiation.
+- Intermittent (sporadic)
+	- Come and go
+- Design (logical)
+	- Humad made faults during specification, design and implementation of a system
+- Interaction or operational faults
+	- Humans operating or mainting a system
+- Faults caused by the environment
+
+#### System times
+The system is either:
+- Working
+- Failed (down)
+
+I(t) is a function of time that describes the behavior of the system. 
+	I(t) = {1 if the system is working at time t
+			 { 0 otherwise
+![[Pasted image 20220905132701.png]]
+
+$$T_{FF}$$ Time to First Failure
+$$T_{CF}$$ Time to first Catastrophic Failure.
+$$T_{BF}$$ Time Between Failures
+$$T_{U}$$Up Time
+$$T_{D}$$ Down Time
+$$T_{F}$$ Time to failure
+
+MTFF =E(TFF) Mean Time to First Failure. 
+MTCF =E(TCF) Mean Time to Catastrophic Failure. 
+MTBF =E(TBF) Mean Time Between Failures6. 
+MUT =E(TU) Mean Up Time. 
+MDT =E(TD) Mean Down Time. 
+MTTF =E(TF) Mean Time To Failure.
+
+#### Availability
+*"Ability of a system to provide a set of services at a given instant of time or at any instant within a given time interval."*
+
+1. Asymptotic availability, denoted with A
+	1. It is assumed that the system has reached its steady state and A is the probability of finding the system in a working state at a randomly chosen time in the future.
+	$$t-> \infty \ A=limP(I(t)=1)$$
+	$$A=\frac {MUT} {MDT+MUT} = \frac {MUT} {MTBF} $$
