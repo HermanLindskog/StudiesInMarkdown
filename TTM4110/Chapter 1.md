@@ -174,3 +174,111 @@ MTTF =E(TF) Mean Time To Failure.
 	1. It is assumed that the system has reached its steady state and A is the probability of finding the system in a working state at a randomly chosen time in the future.
 	$$t-> \infty \ A=limP(I(t)=1)$$
 	$$A=\frac {MUT} {MDT+MUT} = \frac {MUT} {MTBF} $$
+2. Often used to talk about unavavilability U insted, (asymptotic is close to one)
+	$$ U=1-A=\frac {MDT} {MTBF}$$
+	So it is often between 10^-1 and 10^-5
+3. Instanteneous availability/pointwise availability, which is the probability that the system is working at a given instant t
+	$$A(t)=P(I(t)=1)=E(I(t))$$
+4. Interval availability or mean availability:
+	$$\[A(t1,t2)=\frac {1} {t2-t1} \int_{t1}^{t2} A(t) \,dt\]$$
+	$$\[A(t1,t2)=E\frac {1} {t2-t1} \int_{t1}^{t2} I(t) \,dt\]$$
+5. Measure converge to the asymptotic availability, given that it exists
+	A = lim
+	t→∞ A(t) = lim
+	t→∞ A(t, t + τ )
+
+Availability measures are probabilities and expected values, bot what is observed at an instant or during a period of time.
+
+#### Reliability
+*"Ability of a system to provide uninterrupted service."*
+Usually determined by the time to first faire $$T_{FF}$$
+	Reliability function:
+		R(t) = P (TFF > t)
+	Can also measure it in Mean Time to First Failure
+
+**System in steady state**
+
+		When a telephone user makes a call, the network is in steady state, and the
+	reliability is given by the probability that the call terminates before a failure occurs.
+	R(t) = P (TF > t) 
+
+#### Safety
+"Ability of a system to provide service without the occurrence of catastrophic failures."
+- Benign failures
+	- Doesn't really count, and is is the probability that no catastrophic failure has occurred
+	until and including time t.
+- Catastrophic failures
+	- Determined by the importance of the application
+
+### Performance
+"Ability of a system to provide the resources needed to deliver its services."
+
+#### Capacity
+"Maximum load a system can handle per time unit"
+- The capacity is a property of a system, and not of the service it delivers.
+- Denoted by C and could measure things like:
+	- the capacity of a transmission channel (service provided at the physical level) is
+	the number of bits transferred per second (datarate).
+	- the capacity of a routing function in an IP-router is a number of packets per second.
+
+#### Traffic and utilization
+- Instantaneous carried traffic A′(t)
+	- Number of busy resources in a pool of resources at a given instant of time t.
+- Carried traffic A′(t)
+	- Average number of busy resources in the time interval [0,T]
+- Unit for traffic is Erland, and is dimensionless
+
+![Alt text](/TTM4110/Images/Screenshot%20from%202022-09-08%2015-31-23.png "Example")
+
+- Offered traffic
+	- "Traffic that would be carried if the number of resources were infinite"
+	- Greater or equal to the carried traffic
+		- The difference between the
+		offered traffic and the carried traffic is the lost traffic.
+
+- Lost traffic
+	- "Difference between the offered traffic and the carried traffic."
+	- Not sufficient resources to serve the incoming service requests
+		- Can also seperate between primary and secondary traffic
+![Alt text](/TTM4110/Images/Screenshot%20from%202022-09-08%2015-49-12.png "Traffic")
+
+#### Throughput
+"Portion of the system capacity that is utilized by the users."
+- Denoted by ζ
+- Throughput is the portion of system capacity used by the user
+
+#### Delay
+"Time it takes to complete a service
+
+#### System times - W
+"Accumulated time a service request is pending for service in a system"
+![Alt text](/TTM4110/Images/Screenshot%20from%202022-09-08%2015-59-40.png "System times")
+
+#### System time - X
+"Accumulated time a service request is served by a system."
+
+#### Sojourn time - S
+"Total time a service request is in a system
+- Is the sum of the waiting time and service time (S=W+X)
+
+#### End-to-end performance
+- Interested in total delay from the sender to reciever, for instance for real-time services
+
+### Relation between dependability and performance
+- They are not independent from each other
+	- While the depenedabilith could be:
+		-  physical operating conditions,
+		- operation and maintenance, and
+		- offered traffic
+	- Performance could be:
+		- Traffic
+		- Traffic interest
+		- Traffic mix
+
+### QoS specification
+![Alt text](/TTM4110/Images/Screenshot%20from%202022-09-08%2016-27-09.png "QoS")
+
+## Use of modeling in development and dimensioning
+
+### Requirements and specifications
+
