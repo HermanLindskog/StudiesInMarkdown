@@ -180,12 +180,10 @@ MTTF =E(TF) Mean Time To Failure.
 3. Instanteneous availability/pointwise availability, which is the probability that the system is working at a given instant t
 	$$A(t)=P(I(t)=1)=E(I(t))$$
 4. Interval availability or mean availability:
-	$$\[A(t1,t2)=\frac {1} {t2-t1} \int_{t1}^{t2} A(t) \,dt\]$$
-	$$\[A(t1,t2)=E\frac {1} {t2-t1} \int_{t1}^{t2} I(t) \,dt\]$$
+	$$A(t1,t2)=\frac {1} {t2-t1} \int_{t1}^{t2} A(t) \,dt$$
+	$$A(t1,t2)=E\frac {1} {t2-t1} \int_{t1}^{t2} I(t) \,dt$$
 5. Measure converge to the asymptotic availability, given that it exists
-	A = lim
-	t→∞ A(t) = lim
-	t→∞ A(t, t + τ )
+	$$A = lim\ t→∞\ A(t) = lim\ t→∞\ A(t, t + τ )$$
 
 Availability measures are probabilities and expected values, bot what is observed at an instant or during a period of time.
 
@@ -193,14 +191,14 @@ Availability measures are probabilities and expected values, bot what is observe
 *"Ability of a system to provide uninterrupted service."*
 Usually determined by the time to first faire $$T_{FF}$$
 	Reliability function:
-		R(t) = P (TFF > t)
-	Can also measure it in Mean Time to First Failure
+		$$R(t) = P (T_{FF} > t)$$
+	Can also measure it in Mean Time to First Failure. If R(t) decays to zero sufficiently fast, i.e. if $$lim\ t→∞\ tR(t) = 0$$
+	$$MTFF=\int_{∞}^{0}R(t)dt$$
 
 **System in steady state**
 
-		When a telephone user makes a call, the network is in steady state, and the
-	reliability is given by the probability that the call terminates before a failure occurs.
-	R(t) = P (TF > t) 
+When a telephone user makes a call, the network is in steady state, and thereliability is given by the probability that the call terminates before a failure occurs.
+	$$R̃(t) = P (TF > t)$$ 
 
 #### Safety
 "Ability of a system to provide service without the occurrence of catastrophic failures."

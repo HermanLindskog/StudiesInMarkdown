@@ -4,12 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0a25021d6802eba5",
+        "id": "95ddf539e5b469e1",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "TTM4110/Images/Pasted image 20220908234515.png"
+          }
+        }
+      },
+      {
+        "id": "0dde69b66bbcde16",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TTM4110/Chapter 1.md",
+            "file": "TTM4110/Lecture 2 - week 35.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TTM4110/Chapter 1.md",
+                "file": "TTM4110/Images/Pasted image 20220908234515.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TTM4110/Chapter 1.md",
+                "file": "TTM4110/Images/Pasted image 20220908234515.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTM4110/Chapter 1.md"
+                "file": "TTM4110/Images/Pasted image 20220908234515.png"
               }
             }
           }
@@ -128,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0a25021d6802eba5",
+  "active": "d8831f7c9a49be5c",
   "lastOpenFiles": [
-    "TTM4105/Intro-lecture.md",
-    "TTM4105/Background information.md",
-    "TTM4105/Basics_Tutorial (1).pdf",
-    "TTM4105/Background.md",
-    "My File.pdf.md",
-    "TTM4105/Lecture week 35 - 31.08.22.md",
+    "TTM4110/Chapter 2.md",
+    "TTM4110/Lecture 2 - week 35.md",
     "TTM4110/Chapter 1.md",
-    "README.md",
-    "TTM4110/Pasted image 20220831085704.png",
-    "TTM4240.md"
+    "TTM4105/Wireless transmission Part 2.md",
+    "TTM4110/Exercise 1.md",
+    "TTM4105/Wireless transmission Part 1.md",
+    "TTM4105/Lecture week 35 - 31.08.22.md",
+    "TTM4105/Forkortelser og formler.md",
+    "TTM4105/Intro-lecture.md",
+    "TTM4105/Background.md"
   ]
 }
