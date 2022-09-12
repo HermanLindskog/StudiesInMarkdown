@@ -74,8 +74,43 @@ The sum of all the probabilites will become 1
 #### Negative exponential distribution (n.e.d.)
 The probability density function of the negative exponential distribution, or simply exponential distribution is:
 ![[Pasted image 20220908234515.png]]
-- All the time variables to calcuta e.g. delay of a packet
+- All the time variables to calculate e.g. delay of a packet
+![[Pasted image 20220909123745.png]]
+
+#### Hypo-exponential distribution
+- Sum of series connection of *k* independent exponentially distributed random variables that may have different rates
+
+#### Erlang-k distribution
+*A special case of the hypo-exponential distribution where the k random variables are identically distributed.*
+
+![[Pasted image 20220909123538.png]]
+
+#### Gamma distribution
+Generalization of the Erland distribution 
+
+#### Hyper-exponential distribution
+![[Pasted image 20220909124954.png]]
+
+#### Weibull distribution
+
+#### Uniform distribution
+![[Pasted image 20220909131033.png]]
+a) Sketch the pdf for the continuous and pmd for the discrete case
+![[Pasted image 20220909131123.png]]
+
+#### Normal distribution
+
+##### Relations between distributions
+![[Pasted image 20220909131440.png]]
+
+![[Pasted image 20220909131646.png]]
+
+#### Bernoulli distribution
+Either 0 or 1
+
 
 pdf (density, continious variables) vs pmf (mass, discrete random variables)
 pdf - gaussian distribution
 pmf - e.g. dices. A value that a random number has the value
+
+![[Pasted image 20220909132147.png]]

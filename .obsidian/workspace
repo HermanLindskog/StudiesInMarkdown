@@ -4,22 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "95ddf539e5b469e1",
-        "type": "leaf",
-        "state": {
-          "type": "image",
-          "state": {
-            "file": "TTM4110/Images/Pasted image 20220908234515.png"
-          }
-        }
-      },
-      {
-        "id": "0dde69b66bbcde16",
+        "id": "b9131dd769291d9b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TTM4110/Lecture 2 - week 35.md",
+            "file": "TTM4240/Assignments/Assignment 1.md",
             "mode": "source",
             "source": false
           }
@@ -87,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TTM4110/Images/Pasted image 20220908234515.png",
+                "file": "TTM4240/Assignments/Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TTM4110/Images/Pasted image 20220908234515.png",
+                "file": "TTM4240/Assignments/Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTM4110/Images/Pasted image 20220908234515.png"
+                "file": "TTM4240/Assignments/Assignment 1.md"
               }
             }
           }
@@ -138,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d8831f7c9a49be5c",
+  "active": "b9131dd769291d9b",
   "lastOpenFiles": [
-    "TTM4110/Chapter 2.md",
     "TTM4110/Lecture 2 - week 35.md",
-    "TTM4110/Chapter 1.md",
-    "TTM4105/Wireless transmission Part 2.md",
-    "TTM4110/Exercise 1.md",
-    "TTM4105/Wireless transmission Part 1.md",
-    "TTM4105/Lecture week 35 - 31.08.22.md",
-    "TTM4105/Forkortelser og formler.md",
-    "TTM4105/Intro-lecture.md",
-    "TTM4105/Background.md"
+    "TTM4240/Assignments/Assignment 1.md",
+    "TTM4240/Chapter 12 - Routing architecture, from Internetworking  with TCP-IP.md",
+    "TTM4240/The NAT64 DNS64 Tool Suite for IPv6 Transition.md",
+    "TTM4110/Images/Pasted image 20220910230355.png",
+    "TTM4110/Chapter 2.md",
+    "TTM4110/Chapter 4.2.md",
+    "TTM4110/Images/Pasted image 20220909132147.png",
+    "TTM4110/Images/Pasted image 20220909131646.png",
+    "TTM4110/Images/Pasted image 20220908234515.png"
   ]
 }
